@@ -1,0 +1,24 @@
+{
+    "name": "nezamy/module",
+    "type": "library",
+    "description": "Module System",
+    "keywords": ["module", "justframework"],
+    "homepage": "https://github.com/nezamy/module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mahmoud Elnezamy",
+            "email": "mahmoud@nezamy.com",
+            "homepage": "http://nezamy.com",
+            "role": "Full Stack Web Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "System\\": "system"
+        }
+    }
+}
